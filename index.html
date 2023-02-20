@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./questions.js"></script>
+</head>
+<body>
+  <div class="start_quiz_button ">
+    Start Quiz</div>
+<div class="quiz_box inactive_btn">
+  <h2 class="ques_text"></h2>
+  <div class="options_list">
+    <!-- <div class="option">Hypertext multiple language</div>
+    <div class="option wroung">Hyper text processor </div>
+    <div class="option">Hyper tool multi language</div>
+    <div class="option wright">Hypertext markup language </div> -->
+  </div>
+
+ <div class="quiz_count">
+  <div class="footer_left">
+  <span class="ques_count"></span> / <span class="total_ques"></span>
+  </div>
+  <div class="footer_right">
+    <button class="next_btn inactive_btn">Next</button>
+  </div>
+ </div>
+</div>
+
+<div class="result_box inactive_btn">
+  <h2>Result</h2>
+  <div class="result_cont">
+    <h3 class="total_ques">Total Questions : <span></span></h3>
+    <h3 class="right_ans">Right Answers : <span></span></h3>
+    <h3 class="wrong_ans">Wrong Answers : <span></span></h3>
+    <h3 class="percentage">Percentage : <span></span></h3>
+  </div>
+
+  <div class="result_footer">
+    <div class="restart_quiz">Restart Quiz</div>
+    <div class="exit">Exit Quiz</div>
+  </div>
+
+</div>
+
+  <script src="./app.js"></script>
+
+</body>
+</html>
